@@ -1,0 +1,26 @@
+{
+    "name": "glabstech/wp-mortgage-calculator",
+    "description": "WordPress plugin for a dynamic mortgage calculator",
+    "type": "wordpress-plugin",
+    "require": {
+      "components/jquery": "^3.3",
+      "htmlburger/carbon-fields-plugin": "^3.1"
+    },
+    "license": "GNU GPL",
+    "authors": [
+        {
+            "name": "wdonayre",
+            "email": "wdonayredroid@gmail.com"
+        }
+    ],
+
+    "support": {
+        "email": "support+wp_calculator@glabs.tech"
+    },
+
+    "autoload": {
+      "psr-4": {
+        "WPMortgageCalculator\\": "src/"
+      }
+    }
+}

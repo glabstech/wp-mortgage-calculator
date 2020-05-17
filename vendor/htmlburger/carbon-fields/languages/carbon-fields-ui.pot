@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: packages/core/fields/rich-text/index.js:123
+msgid "Visual"
+msgstr ""
+
+#: packages/core/fields/rich-text/index.js:127
+msgid "Text"
+msgstr ""
