@@ -16,7 +16,6 @@ class Updater {
   private $authorize_token;
   private $github_response;
 
-  const CONST_USERNAME = 'glabstech';
   const CONST_REPO = WPMCALC_PLUGIN_NAME;
 
   public function __construct($file) {

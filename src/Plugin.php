@@ -7,8 +7,6 @@ if (!defined('ABSPATH')) exit;
 
 class Plugin {
 
-  const VERSION = "1.0.0";
-
   private $config;
 
   private static $instance;
@@ -81,19 +79,18 @@ class Plugin {
 
 
   private function deactivate_wpmc(){
-    //TODO
+    
   }
 
   private function loadUpdater(){
-    //if ((string) get_option('my_licence_key') !== '') {
-      // include_once plugin_dir_path(__FILE__) . '/path/to/Updater.php';
-      $updater = new Updater(WPMCALC_PLUGIN);
+    //if ((string) get_option('access_hash') !== '') {
       
-      $updater->set_username('glabstech');
-      $updater->set_repository('wp-mortgage-calculator');
-      $updater->authorize(get_option('my_licence_key'));
+      $updater = new Updater(WPMCALC_PLUGIN);
+      $updater->set_username(WPMCALC_GITHUB_USER);
+      $updater->set_repository(WPMCALC_PLUGIN_NAME);
+      $updater->authorize(get_option('access_hash'));
       $updater->initialize();
-      // var_dump($updater);
+
     //}
   }
 
