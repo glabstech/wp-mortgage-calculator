@@ -1,0 +1,116 @@
+.wpmc_variable_object .cf-field__head,
+.wpmc_variable_object .cf-field__body{
+  display:none;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-table{
+  width:100%;
+  border-collapse: collapse;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-table tr{
+
+}
+.wpmc_variable_object [data-schemaid="root"] .je-table td{
+  background:#c7f7f7;
+  padding:15px;
+  border-bottom:5px solid white;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-table th{
+  font-size:10px;
+  text-align:left; 
+}
+.wpmc_variable_object [data-schemaid="root"] .je-table td,
+.wpmc_variable_object [data-schemaid="root"] .je-table th{
+  vertical-align:top;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-table textarea{
+  height:65px !important;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-table input{
+  width:100%;
+}
+
+.wpmc_variable_object [data-schemaid="root"] [type="button"]{
+  margin-right:5px;
+  margin-bottom:5px
+}
+
+
+.wpmc_variable_object [data-schemaid="root"] .je-indented-panel .form-control label{
+  display:inline-block;
+  min-width:150px;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-indented-panel .form-control{
+  margin-bottom:10px;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-indented-panel .form-control textarea{
+  height:65px !important;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-indented-panel .row .form-control{
+  max-width:320px;
+  
+}
+
+.wpmc_variable_object [data-schemaid="root"] .je-child-editor-holder {
+  background: #f7e4c7;
+  margin-bottom:15px;
+  padding:15px;
+  border-radius:15px;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-child-editor-holder [data-schematype="array"]{
+  background: white;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #2bd0d0;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-child-editor-holder > span > button{
+  background: #ff9e09;
+  border:none;
+  color:white;
+  padding:5px 35px;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-child-editor-holder > span > button.delete{
+  color:red;
+  border:1px solid #ff9e09;
+  background:white;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-child-editor-holder > span > button.delete span{
+  display:none;
+}
+.wpmc_variable_object [data-schemaid="root"] .je-child-editor-holder > span > button.delete:after{
+  content: attr(title);
+  margin-left:5px;
+}
+
+button[title="Add Group"],button[title="Delete Last Group"],
+button[title="Add Variable"], button[title="Delete Last Variable"]{
+    padding:8px 30px;
+    border:none;
+    background:#ff9e0a;
+    color:white;
+    border-radius:3px;
+    font-size:16px;
+    border:1px solid #ff9e0a;
+    color:white;
+}
+button[title="Delete Last Group"]{
+    color:#ff9e0a;
+    background:white;
+    border:1px solid #ff9e0a;   
+}
+button[title="Add Group"]:hover, button[title="Delete Last Group"]:hover,
+button[title="Add Variable"]:hover, button[title="Delete Last Variable"]:hover{
+    background:black;
+    border-color:#000;
+    cursor:pointer;
+    color:white;
+}
+button[title="Add Variable"]{
+    background:#04d8d8;
+    border-color:#04d8d8;
+}
+button[title="Delete Last Variable"]{
+    color:#04d8d8;
+    border-color:#04d8d8;
+    background:white;
+}

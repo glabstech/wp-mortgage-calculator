@@ -38,7 +38,30 @@ class AdminOptions {
         * MAIN CONTAINER in Options
       */
 
-      $theme_options = Container::make( 'theme_options', 'WPMC Options');
+      $plugin_options = Container::make( 'theme_options', 'WPMC Options');
+
+      /**
+       * Variables and Constants
+       */
+      $plugin_options->add_tab(
+        __('Variables and Constants'),
+        [
+          Field::make( 'textarea', 'crb_variables_object', __( '' ) )
+            ->set_classes( 'wpmc_variable_object' )
+            //          Field::make( 'rich_text', 'crb_variables_object', __( 'Configuration Object (JSON)' ) )
+          //->set_classes( 'wpmc_variable_object' )
+        ]
+      );
+
+      /**
+       * Email
+       */
+      $plugin_options->add_tab(
+        __('Email'),
+        [
+          Field::make( 'text', 'crb_admin', __( 'Admin Email' ) )
+        ]
+      );
 
     });
   }
