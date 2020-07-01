@@ -3,7 +3,7 @@
  * Plugin Name:     WP Mortgage Calculator
  * Plugin URI:      https://wordpress.org/plugins/wp-mortgage-calculator
  * Description:     A Dynamic Mortgage Calculator
- * Version:         0.0.0
+ * Version:         1.0.3
  * Author:          Glabs Tech
  * Author URI:      https://glabs.tech/wp-mortgage-calculator
  * Text Domain:     wpmc
@@ -22,7 +22,7 @@ use WPMortgageCalculator\scGroups;
 if( !defined( 'ABSPATH' ) ) exit;
 
 
-define( 'WPMCALC_VERSION', '0.0.0' );
+define( 'WPMCALC_VERSION', '1.0.3' );
 
 define( 'WPMCALC_REQUIRED_WP_VERSION', '4.2' );
 
