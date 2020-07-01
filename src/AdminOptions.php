@@ -48,8 +48,6 @@ class AdminOptions {
         [
           Field::make( 'textarea', 'crb_variables_object', __( '' ) )
             ->set_classes( 'wpmc_variable_object' )
-            //          Field::make( 'rich_text', 'crb_variables_object', __( 'Configuration Object (JSON)' ) )
-          //->set_classes( 'wpmc_variable_object' )
         ]
       );
 
@@ -60,6 +58,17 @@ class AdminOptions {
         __('Email'),
         [
           Field::make( 'text', 'crb_admin', __( 'Admin Email' ) )
+        ]
+      );
+
+      /**
+       * Email
+       */
+      $plugin_options->add_tab(
+        __('Template'),
+        [
+          Field::make( 'textarea', 'crb_template', __( '' ) )
+           ->set_classes('crb-template')
         ]
       );
 

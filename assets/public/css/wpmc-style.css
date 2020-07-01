@@ -1,0 +1,103 @@
+[data-tippy-content]{
+  display: inline-block;
+  background-image: url(../images/question.png);
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  vertical-align: middle;
+  margin-left: 8px;
+  float:right;
+  margin-top:3px;
+}
+[data-tippy-content]:hover{
+  cursor:pointer;
+}
+
+
+/* ==================== */
+.wpmc-groups {
+  font-family:Arial;
+  font-size:16px;
+}
+
+.wpmc-group {}
+
+.wpmc-group .wpmc-title {
+  background:#FF9900;
+  padding:5px 15px;
+  color:white;
+  font-weight:bold;
+}
+.wpmc-group .wpmc-field{
+
+}
+.wpmc-group .wpmc-field label{
+  color:#1A75BC;
+  display:inline-block;
+  width:70%;
+  margin-bottom:0;
+  padding: 10px 0;
+  font-size:14px;
+  vertical-align:top;
+  float:left;
+}
+.wpmc-group .wpmc-field > div{
+  background:#DBEEF3;
+  display:inline-block;
+  text-align:right;
+  width:30%;
+  padding: 10px 15px;
+  box-sizing:border-box;
+}
+.wpmc-group .wpmc-field > div > span,
+.wpmc-group .wpmc-field > div > div{
+  min-height:20px;
+  display:inline-block;
+}
+.wpmc-group .wpmc-field > div > *{
+  background:none;
+  border:none;
+  padding:0;
+  width: 100%;
+  text-align: center;
+  background:rgba(255,255,255,0.3);
+}
+
+
+select.mode-selector {
+  text-align:center !important;
+  font-size:10px;
+  display:inline-block;
+  padding:3px 5px !important;
+  margin-bottom:5px;
+  background:#656565 !important;
+  color:white;
+  border-radius:5px;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+.adv-mode-fieldset{
+  
+}
+.adv-mode-fieldset {
+  background:none !important;
+}
+
+.adv-mode-fieldset .adv-fieldset-inner {
+  overflow:hidden;
+}
+
+.adv-mode-fieldset .adv-fieldset-inner label{
+  padding:0;
+  color:black;
+  width:50%;
+  text-align:left;
+  text-indent:5px;
+}
+.adv-mode-fieldset .adv-fieldset-inner input{
+  padding:0;
+  width:50%;
+  background: rgba(255,255,255,0.3);
+  border:none;
+  text-align:center;
+}

@@ -36,8 +36,7 @@
 
 
 .wpmc_variable_object [data-schemaid="root"] .je-indented-panel .form-control label{
-  display:inline-block;
-  min-width:150px;
+  display:block;
 }
 .wpmc_variable_object [data-schemaid="root"] .je-indented-panel .form-control{
   margin-bottom:10px;
@@ -73,6 +72,7 @@
   color:red;
   border:1px solid #ff9e09;
   background:white;
+  float:right;
 }
 .wpmc_variable_object [data-schemaid="root"] .je-child-editor-holder > span > button.delete span{
   display:none;
@@ -113,4 +113,11 @@ button[title="Delete Last Variable"]{
     color:#04d8d8;
     border-color:#04d8d8;
     background:white;
+}
+
+.crb-template{
+  min-height:500px
+}
+.crb-template .cf-field__body, .crb-template .cf-field__body .CodeMirror{
+  height:100%;
 }

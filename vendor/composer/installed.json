@@ -174,17 +174,17 @@
     },
     {
         "name": "htmlburger/carbon-fields",
-        "version": "v3.1.19",
-        "version_normalized": "3.1.19.0",
+        "version": "v3.1.20",
+        "version_normalized": "3.1.20.0",
         "source": {
             "type": "git",
             "url": "https://github.com/htmlburger/carbon-fields.git",
-            "reference": "1dfe8c22622fec104d7b03b02badd308382df591"
+            "reference": "0688b493efcf97aab9f540d399813e1392fe30cd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/1dfe8c22622fec104d7b03b02badd308382df591",
-            "reference": "1dfe8c22622fec104d7b03b02badd308382df591",
+            "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/0688b493efcf97aab9f540d399813e1392fe30cd",
+            "reference": "0688b493efcf97aab9f540d399813e1392fe30cd",
             "shasum": ""
         },
         "require": {
@@ -194,7 +194,7 @@
             "mockery/mockery": "^0.9.7",
             "phpunit/phpunit": "~4.8"
         },
-        "time": "2020-05-15T08:08:30+00:00",
+        "time": "2020-05-18T09:54:56+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -309,25 +309,25 @@
     },
     {
         "name": "htmlburger/carbon-fields-plugin",
-        "version": "v3.1.19",
-        "version_normalized": "3.1.19.0",
+        "version": "v3.1.20",
+        "version_normalized": "3.1.20.0",
         "source": {
             "type": "git",
             "url": "https://github.com/htmlburger/carbon-fields-plugin.git",
-            "reference": "29e27c108d8a67f1680a589ace6426a2b21fbd71"
+            "reference": "8cde008f310d3543539d0920cd13a023991ea30c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/htmlburger/carbon-fields-plugin/zipball/29e27c108d8a67f1680a589ace6426a2b21fbd71",
-            "reference": "29e27c108d8a67f1680a589ace6426a2b21fbd71",
+            "url": "https://api.github.com/repos/htmlburger/carbon-fields-plugin/zipball/8cde008f310d3543539d0920cd13a023991ea30c",
+            "reference": "8cde008f310d3543539d0920cd13a023991ea30c",
             "shasum": ""
         },
         "require": {
             "composer/installers": "^1.0",
-            "htmlburger/carbon-fields": "3.1.19",
+            "htmlburger/carbon-fields": "3.1.20",
             "php": ">=5.3"
         },
-        "time": "2020-05-15T08:12:44+00:00",
+        "time": "2020-05-18T10:00:24+00:00",
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "autoload": {

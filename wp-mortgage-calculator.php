@@ -16,6 +16,8 @@
  
 namespace WPMortgageCalculator;
 
+use WPMortgageCalculator\scGroups;
+
 // Exit if accessed directly
 if( !defined( 'ABSPATH' ) ) exit;
 
@@ -39,5 +41,7 @@ define( 'WPMCALC_GITHUB_USER', 'glabstech');
 if( !class_exists('WPMortgageCalculator') ) {
     require_once \plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 }
+
+require_once 'src/shortcodes/shortcodes.php';
 
 \WPMortgageCalculator\Plugin::load();
