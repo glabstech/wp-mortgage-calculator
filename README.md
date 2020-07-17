@@ -8,3 +8,6 @@
 *SCREENSHOTS*
 ![alt text](https://github.com/glabstech/wp-mortgage-calculator/blob/master/assets/public/images/mortgage-calc-1.png?raw=true)
 ![alt text](https://github.com/glabstech/wp-mortgage-calculator/blob/master/assets/public/images/mortgage-calc-2.png?raw=true)
+
+FRONT-END PREVIEW based from the template markup
+![alt text](https://github.com/glabstech/wp-mortgage-calculator/blob/master/assets/public/images/front-end-mortgage-calc.png?raw=true)
