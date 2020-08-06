@@ -312,7 +312,7 @@ select.mode-selector {
 }
 .mc-contact > div,
 .mc-contact input {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 .mc-contact .mc-submit {
   background-color: #fba51a;
